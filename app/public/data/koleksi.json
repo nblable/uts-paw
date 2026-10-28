@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "LDOP Arithmnatic HMIF ITERA",
+    "kategori": "Kaderisasi",
+    "tanggal": "24 Oktober 2026",
+    "lokasi": "Embung",
+    "penyelenggara": "Divisi Kaderisasi"
+  },
+  {
+    "id": "2",
+    "judul": "Musyawarah Besar HMIF ITERA",
+    "kategori": "Rapat",
+    "tanggal": "28 September 2026",
+    "lokasi": "GK2 222",
+    "penyelenggara": "DPA HMIF ITERA"
+  },
+  {
+    "id": "3",
+    "judul": "HMIF Mengabdi",
+    "kategori": "Mengabdi",
+    "tanggal": "25 September 2026",
+    "lokasi": "Panti Asuhan Sukarame",
+    "penyelenggara": "Divisi Sosial Masyarakat"
+  },
+  {
+    "id": "4",
+    "judul": "Informatics Festival",
+    "kategori": "Workshop",
+    "tanggal": "6 Oktober 2026",
+    "lokasi": "Aula GK1",
+    "penyelenggara": "HMIF ITERA"
+  },
+  {
+    "id": "5",
+    "judul": "CIBT cup",
+    "kategori": "Kompetisi Basket",
+    "tanggal": "10 Oktober 20266",
+    "lokasi": "Wapec",
+    "penyelenggara": "IBT"
+  },
+  {
+    "id": "6",
+    "judul": "Kuliah Lapangan",
+    "kategori": "Kunjungan Industri",
+    "tanggal": "7 Oktober 2026",
+    "lokasi": "Yogyakarta",
+    "penyelenggara": "Informatika ITERA"
+  },
+  {
+    "id": "7",
+    "judul": "Bimbingan Tugas Akhir",
+    "kategori": "Semester Akhir",
+    "tanggal": "25 Oktober",
+    "lokasi": "Ruang Prodi",
+    "penyelenggara": "Pak Meida Cahyo Untoro"
+  },
+  {
+    "id": "8",
+    "judul": "Seminar Cyber Security",
+    "kategori": "Seminar",
+    "tanggal": "1 Oktober 2026",
+    "lokasi": "Aula GK 2",
+    "penyelenggara": "RAVEN"
+  },
+  {
+    "id": "9",
+    "judul": "UTS Machine Learning",
+    "kategori": "UTS",
+    "tanggal": "21 Oktober 2026",
+    "lokasi": "GK2 123",
+    "penyelenggara": "Pak Imam Eko Wicaksono"
+  },
+  {
+    "id": "10",
+    "judul": "Lomba UI/UX",
+    "kategori": "Kompetisi",
+    "tanggal": "18 Oktober 2026",
+    "lokasi": "Online",
+    "penyelenggara": "Point Project"
   }
 ]
