@@ -1,7 +1,7 @@
 import mahasiswa from '../../mahasiswa.json'
 
 // Ganti dengan alamat repo fork kamu.
-const REPO = 'https://github.com/USERNAME/uts-paw'
+const REPO = 'https://github.com/nblable/uts-paw'
 
 export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa
