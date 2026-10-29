@@ -3,19 +3,28 @@ import './Statistik.css'
 
 export default function Statistik() {
   const { items } = useKoleksi()
-  const perKategori = items.reduce((hitung, { kategori }) => ({ ...hitung, [kategori]: (hitung[kategori] ?? 0) + 1 }), {})
+
+  const perKategori = items.reduce(
+    (hitung, { kategori }) => ({
+      ...hitung,
+      [kategori]: (hitung[kategori] ?? 0) + 1,
+    }),
+    {},
+  )
 
   return (
-    <section>
-      <h1>Statistik</h1>
+    <section id="statistik-halaman">
+      <h1 id="statistik-judul">Statistik</h1>
+
       <div className="tabel-gulir">
-        <table className="tabel-data">
+        <table id="statistik-tabel" className="tabel-data">
           <thead>
             <tr>
-              <th>Kategori</th>
-              <th>Jumlah</th>
+              <th scope="col">Kategori</th>
+              <th scope="col">Jumlah</th>
             </tr>
           </thead>
+
           <tbody>
             {Object.entries(perKategori).map(([kategori, jumlah]) => (
               <tr key={kategori}>
@@ -24,9 +33,10 @@ export default function Statistik() {
               </tr>
             ))}
           </tbody>
+
           <tfoot>
             <tr>
-              <th>Total</th>
+              <th scope="row">Total</th>
               <td>{items.length}</td>
             </tr>
           </tfoot>

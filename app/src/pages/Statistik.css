@@ -1,11 +1,27 @@
+/* ID selector */
+#statistik-halaman {
+  padding: 1rem;
+}
+
+#statistik-judul {
+  margin-bottom: 1rem;
+}
+
+#statistik-tabel {
+  margin-top: 0.5rem;
+}
+
+/* Class selector */
 .tabel-gulir {
   overflow-x: auto;
+  border-radius: 8px;
 }
 
 .tabel-data {
   width: 100%;
   max-width: 480px;
   border-collapse: collapse;
+  background: #fff;
 }
 
 .tabel-data th,
@@ -32,6 +48,25 @@
 .tabel-data tfoot td {
   border-top: 2px solid #1f2328;
   font-weight: 600;
+}
+
+/* Pseudo-selector */
+.tabel-data tbody tr:hover {
+  background: #eef5ff;
+}
+
+.tabel-data tbody tr:first-child {
+  border-top: 2px solid #dcdcdc;
+}
+
+#statistik-judul::after {
+  content: " 📊";
+}
+
+/* Pseudo-selector untuk aksesibilitas */
+.tabel-data th:hover,
+.tabel-data td:hover {
+  color: #1f5fbf;
 }
 
 @media (max-width: 480px) {
