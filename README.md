@@ -58,12 +58,12 @@ Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts
 
 Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi mengubahnya di fork tidak berpengaruh.
 
-## README milikmu
+## README milikku
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
 ```markdown
-# Nama Aplikasi
+# Agenda Kegiatan Kampus
 
 Nama: Nabila Ramadhani Mujahidin
 NIM: 123140062
@@ -75,7 +75,15 @@ Deployment: https://nblable.github.io/uts-paw/
 
 ## Fitur
 
-- ...
+- Beranda dengan ringkasan jumlah item dan kategori.
+- Daftar agenda dengan pencarian berdasarkan judul.
+- Filter agenda berdasarkan kategori.
+- Halaman detail agenda.
+- Form untuk menambahkan agenda baru.
+- Fitur menghapus agenda.
+- Statistik jumlah agenda per kategori.
+- Halaman tentang pengembang.
+- Penyimpanan penambahan dan penghapusan data melalui localStorage.
 
 ## Menjalankan secara lokal
 
@@ -85,5 +93,12 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- Komponen fungsional dan props.
+- useState dan useEffect.
+- Context API.
+- Custom hooks.
+- React Router.
+- Fetch API dan async/await.
+- Rendering daftar menggunakan map.
+- Form terkontrol dan validasi.
+- Vitest dan React Testing Library.
